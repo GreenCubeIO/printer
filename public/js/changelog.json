@@ -1,0 +1,118 @@
+{
+	"versions" : [{
+		"version" : "0.9.1",
+		"date" 	  : "06/03/2015",
+		"sections" : [{
+			"name"	  : "General",
+			"changes" : [{
+				"description" : "First release"
+			}]
+		}]
+	},{
+		"version" : "0.9.2",
+		"date" 	  : "06/15/2015",
+		"sections" : [{
+			"name"	  : "General",
+			"changes" : [{
+				"description" : "Bug fixes"
+			}]
+		}]
+	},{
+		"version" : "0.9.3",
+		"date" 	  : "07/27/2015",
+		"sections" : [{
+			"name" : "Tasks",
+			"changes" : [{
+				"description" : "Click task will now open task for edit."
+			},{
+				"description" : "Tasks can now be deleted."
+			},{
+				"description" : "In User Task Screen, when changing task the description will be updated (task time etc)."
+			},{
+				"description" : "When task is longer than 3 hours the app will ask if time is correct."
+			},{
+				"description" : "App won't send Slack notifications if the task is schedule to start a different day from today, in other words, the all will only Slack if start or end time is today."
+			},{
+				"description" : "App now shows tasks to logged in user, unless logged in user can create tasks to other users."
+			},{
+				"description" : "Users cannot set task status to 'Pending' if was set to 'Completed'."
+			}]
+		},{
+			"name" : "Performance",
+			"changes" : [{
+				"description" : "Improve performance when loading tasks."
+			}]
+		},{
+			"name" : "Administration",
+			"changes" : [{
+				"description" : "A permission can only be granted by a user who's granted with that same permission"
+			},{
+				"description" : "Admin with permission 'Add Brands' can now add a 'Budget' (in hours) for each department in the company."
+			}]
+		},{
+			"name" : "General",
+			"changes" : [{
+				"description" : "Change log is now available."
+			},{
+				"description" : "App is now capable of sending browser notifications"
+			},{
+				"description" : "App listening to messages broadcasted from the server (Push)"
+			}]
+		}]
+	},{
+		"version" : "0.9.4",
+		"date" 	  : "07/27/2015",
+		"sections" : [{
+			"name"	  : "General",
+			"changes" : [{
+				"description" : "Bug fixes"
+			}]
+		}]
+	},{
+		"version" : "0.9.5",
+		"date" 	  : "07/29/2015",
+		"sections" : [{
+			"name"	  : "General",
+			"changes" : [{
+				"description" : "Changes in security"
+			}]
+		}]
+	},{
+		"version" : "0.9.6",
+		"date" 	  : "07/30/2015",
+		"sections" : [{
+			"name"	  : "General",
+			"changes" : [{
+				"description" : "Prevent SSE invoke"
+			}]
+		}]
+	},{
+		"version" : "0.9.7",
+		"date" 	  : "07/30/2015",
+		"sections" : [{
+			"name"	  : "General",
+			"changes" : [{
+				"description" : "Enforce inactive accounts to get locked out"
+			}]
+		}]
+	},{
+		"version" : "0.9.8",
+		"date" 	  : "08/11/2015",
+		"sections" : [{
+			"name"	  : "General",
+			"changes" : [{
+				"description" : "Enforce inactive accounts to get locked out"
+			}]
+		}]
+	},{
+		"version" : "0.9.9",
+		"date" 	  : "08/12/2015",
+		"sections" : [{
+			"name"	  : "General",
+			"changes" : [{
+				"description" : "Profile picture (from Slack) showing"
+			}]
+		}]
+	}]
+		
+}

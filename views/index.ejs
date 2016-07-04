@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title><%= app_name %></title>
+		<meta name="description" content="">
+		<meta name="author" content="GreenCube.io">
+		<link rel="stylesheet" href="/stylesheets/nouislider.min.css" />
+		<link rel="stylesheet" href="/stylesheets/nouislider.pips.css" />
+		<link rel="stylesheet" href="/stylesheets/tang_energy.css" />
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		
+
+
+		<div class="battery" id="battery">
+			<div class="charge" id="charge"><span id="percentage"></span></div>
+		</div>
+
+		<script>
+			window.is_development = <%= is_development %>
+		</script>
+
+		<script src="/js/vendor/jquery-2.1.0.min.js"></script>
+		<script src="/js/vendor/underscore-min.js"></script>
+
+		<script src="/js/vendor/nouislider.min.js"></script>
+		
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/js/domain/app.js"></script>
+		
+
+	</body>
+</html>
