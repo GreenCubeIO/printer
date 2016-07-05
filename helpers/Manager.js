@@ -1,15 +1,9 @@
-var crypto					= require('crypto');
 var package 				= require('../package.json');
-var cron					= require('cron');
-var async 					= require('async');
 var colors 					= require('colors');
-var nodemailer 				= require("nodemailer");
-var Configuration 			= require('../configuration/configuration.js');
 var fs 						= require('fs')
 GLOBAL.Q 					= require('q');
 GLOBAL.moment 				= require('moment');
 GLOBAL._ 					= require('underscore');
-var mongoose 				= require('mongoose');
 
 var Manager = function(){}
 
